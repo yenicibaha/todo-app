@@ -1,0 +1,92 @@
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  background-color: #282c34;
+  min-height: 16vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 440;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 10px; /* Listenin alt kısmına boşluk ekler */
+}
+
+#tik{
+  border: none;
+  border-radius: 50%;
+  background-color: #462b2b;
+
+  
+
+}
+#tik:hover{
+  background-color: white;
+  color: #34850f;
+  transform: scale(1.1);
+  
+}
+#ekle{
+  background-color: #77165c;
+  color: white;
+  
+}
+#ekle:hover{
+  transform: scale(1.2);
+}
+#input_c{
+  text-align: center;
+
+}
+
+input{
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 300px; 
+}
+.completed {
+  color: #1ba911;
+}
+
+button{
+  display: inline-block;
+    padding: 11px 15px;
+    margin: 1.6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
+    background-color: #390297;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+
+    
+}
+
+button:hover{
+  background-color: white;
+  color: #8f1111;
+  transform: scale(1.1);
+}
+
+h1 {
+  text-align: center;
+  color:#ffffff ;
+  font-size: 3.6rem;
+  
+}
+body{
+  background-color: #282c34;
+}
